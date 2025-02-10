@@ -25,7 +25,7 @@ Due to the hardware configuration of the Commodore C64's DRAMs, all DRAMs come i
 
 When the Dead Test does not detect system malfunctions, it is notorious for changing the type of diagnostics, and therefore the type of cartridge, for a more in-depth analysis.
 
-The C64 Unified Diagnostic Cartridge simplifies and automatically unifies this procedure in one single cartrdige. It starts the Commodore 64 in Ultimax mode, executing the code present in a portion of memory (Eprom or FlashRom) of the cartridge, 16Kbytes large, in particular the second 8Kbytes. In this memory area there must be the code of a Dead Test (but DesTestMax can also be fine) appropriately modified.
+The <b>C64 Unified Diagnostic Cartridge</b> simplifies and automatically unifies this procedure in one single cartrdige. It starts the Commodore 64 in Ultimax mode, executing the code present in a portion of memory (Eprom or FlashRom) of the cartridge, 16Kbytes large, in particular the second 8Kbytes. In this memory area there must be the code of a Dead Test (but DesTestMax can also be fine) appropriately modified.
 
 The modification consists in carrying out only a complete cycle of Dead Test analysis and then making sure that the type of cartridge changes automatically by switching from Ultimax mode to Standard mode, accessing the $DE00 location, and then doing a soft reset of the system. By changing the mode, the first 8Kbytes of the cartridge will be executed as a standard cartridge, it follows that the code of a complete analysis and test cartridge must be present in the first 8KBytes. The softrest will be the trigger for the start of the latter.
 

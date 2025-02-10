@@ -13,6 +13,18 @@ Assemblies now being used.
 The Dead Test is almost completely dedicated to System RAM
 testing and does no type of System ROM or Port Testing.
 
+The Dead Test is an Ultimax type cartridge that starts the Commodore 64 in that mode and not all areas of the RAM (64KByte) are accessible. Only the following locations were accessible:
+* Zero Page Memory resides at Locations $0000 - $00FF.
+* The Stack Page resides at Memory Locations $0100 - $01FF.
+* RAM Locations $0200 - $03FF.
+* The Screen RAM resides at Memory Locations $0400 - $07FF.
+* The Color RAM resides at Memory Locations $D800 - $DC00.
+* RAM Locations $0800 - $0FFF.
+
+Due to the hardware configuration of the Commodore C64's DRAMs, all DRAMs come into play in the management of the first 4Kbytes of RAM ($0000 - $0FFF), so if at least one of the DRAM chips is not functioning correctly, the test carried out by Dead Test will highlight the problem.
+
+When the Dead Test does not detect system malfunctions, it is notorious for changing the type of diagnostics, and therefore the type of cartridge, for a more in-depth analysis.
+
 **Appeareance**
 
 |||

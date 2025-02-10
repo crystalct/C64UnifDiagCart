@@ -1,4 +1,4 @@
-# C64UnifDiagCart
+# C64 Unified Diagnostic Cartridge
 
 The original Dead Test Diagnostic Cartridge is designed to test
 the C64 and C128/C128D, (C64 Mode), Systems that fail
@@ -14,16 +14,20 @@ The Dead Test is almost completely dedicated to System RAM
 testing and does no type of System ROM or Port Testing.
 
 The Dead Test is an Ultimax type cartridge that starts the Commodore 64 in that mode and not all areas of the RAM (64KByte) are accessible. Only the following locations were accessible:
-* Zero Page Memory resides at Locations $0000 - $00FF.
-* The Stack Page resides at Memory Locations $0100 - $01FF.
-* RAM Locations $0200 - $03FF.
-* The Screen RAM resides at Memory Locations $0400 - $07FF.
-* The Color RAM resides at Memory Locations $D800 - $DC00.
-* RAM Locations $0800 - $0FFF.
+* Zero Page Memory resides at locations $0000 - $00FF.
+* The Stack Page resides at Memory locations $0100 - $01FF.
+* RAM locations $0200 - $03FF.
+* The Screen RAM resides at Memory locations $0400 - $07FF.
+* The Color RAM resides at Memory locations $D800 - $DC00.
+* RAM locations $0800 - $0FFF.
 
 Due to the hardware configuration of the Commodore C64's DRAMs, all DRAMs come into play in the management of the first 4Kbytes of RAM ($0000 - $0FFF), so if at least one of the DRAM chips is not functioning correctly, the test carried out by Dead Test will highlight the problem.
 
 When the Dead Test does not detect system malfunctions, it is notorious for changing the type of diagnostics, and therefore the type of cartridge, for a more in-depth analysis.
+
+The C64 Unified Diagnostic Cartridge simplifies and automatically unifies this procedure in one single cartrdige. It starts the Commodore 64 in Ultimax mode, executing the code present in a portion of memory (Eprom or FlashRom) of the cartridge, 16Kbytes large, in particular the second 8Kbytes. In this memory area there must be the code of a Dead Test (but DesTestMax can also be fine) appropriately modified.
+
+The modification consists in carrying out only a complete cycle of Dead Test analysis and then making sure that the type of cartridge changes automatically by switching from Ultimax mode to Standard mode, accessing the $DE00 location, and then doing a soft reset of the system. By changing the mode, the first 8Kbytes of the cartridge will be executed as a standard cartridge, it follows that the code of a complete analysis and test cartridge must be present in the first 8KBytes. The softrest will be the trigger for the start of the latter.
 
 **Appeareance**
 

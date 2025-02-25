@@ -37,6 +37,7 @@ It was identified in the source assembly as the point at which the increment of 
 |Original 781220| Mod (Cycle control)|Mod (routine)|
 |:---:|:---:|:---:|
 |![PCB](./files/DeadOrig.PNG)|![PCB](./files/DeadOrigMod1.PNG)|![PCB](./files/DeadOrigMod2.PNG)|
+
 [Original C64 deadtest diagnostic 781220](./files/C64_Diag_781220_deadtest_disasm_orig.tas), [modded verion](./files/C64_Diag_781220_deadtest_disasm.tas)
 
 **Appeareance**

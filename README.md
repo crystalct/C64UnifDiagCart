@@ -29,8 +29,18 @@ The <b>C64 Unified Diagnostic Cartridge</b> simplifies and automatically unifies
 
 The modification consists in carrying out only a complete cycle of Dead Test analysis and then making sure that the type of cartridge changes automatically by switching from Ultimax mode to Standard mode, accessing the $DE00 location, and then doing a soft reset of the system. By changing the mode, the first 8KBytes of the cartridge will be executed as a standard cartridge, it follows that the code of a complete analysis and test cartridge must be present in the first 8KBytes. The soft reset will be the trigger for the start of the latter.
 
+
+**Original Dead Test Mod**
+
+How was the original Dead Test modified by worldofjani.com?
+It was identified in the source assembly as the point at which the increment of the full test cycle count occurs, and then a check was added to see if the second cycle was starting, and at that point a jump to an additional piece of code copying the cartridge type change routine plus softreset, in RAM area $0334.
+||||
+|:---:|:---:|:---:|
+|A|B|C|
+
 **Appeareance**
 
 |||
 |:---:|:---:|
 |![PCB](./files/UnifA.PNG)|![PCB](./files/UnifB.PNG)|
+

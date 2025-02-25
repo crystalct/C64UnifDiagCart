@@ -41,7 +41,7 @@ It was identified in the source assembly as the point at which the increment of 
 [Original C64 deadtest diagnostic 781220](./files/C64_Diag_781220_deadtest_disasm_orig.tas), [modded verion](./files/C64_Diag_781220_deadtest_disasm.tas).
 Get your favourite version of the standard diagnostic from [worldofjani.com](https://blog.worldofjani.com/?p=1981).
 
-To make the 32Kbyte file to be written to the eprom, merge the 8Kbyte binary file (first block) of the Standard Diagnostics with the binary file of the Dead Test mod version (second 8Kbyte block), then add 16Kbyte (third and fourth blocks) of hexadecimal #$FF values.
+To make the 32Kbyte file to be written to the eprom, merge the 8Kbyte binary file (first block) of the Standard Diagnostics with the binary file of the Dead Test mod version (second 8Kbyte block), then add 16Kbyte (third and fourth blocks) of hexadecimal #$FF values. Working example: [Unified_32k.bin](./files/Unified_32k.bin).
 
 **Appeareance**
 

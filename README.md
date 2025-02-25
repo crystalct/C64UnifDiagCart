@@ -34,7 +34,7 @@ The modification consists in carrying out only a complete cycle of Dead Test ana
 
 How was the original Dead Test modified by worldofjani.com?
 It was identified in the source assembly as the point at which the increment of the full test cycle count occurs, and then a check was added to see if the second cycle was starting, and at that point a jump to an additional piece of code copying the cartridge type change routine plus softreset, in RAM area $0334.
-|Original 781220| Mod (Cycle control)|Mod (routine)|
+|Original 781220| Mod (cycle control)|Mod (routine)|
 |:---:|:---:|:---:|
 |![PCB](./files/DeadOrig.PNG)|![PCB](./files/DeadOrigMod1.PNG)|![PCB](./files/DeadOrigMod2.PNG)|
 

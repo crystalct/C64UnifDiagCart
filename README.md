@@ -43,6 +43,17 @@ Get your favourite version of the standard diagnostic from [worldofjani.com](htt
 
 To make the 32Kbyte file to be written to the eprom, merge the 8Kbyte binary file (first block) of the Standard Diagnostics with the binary file of the Dead Test mod version (second 8Kbyte block), then add 16Kbyte (third and fourth blocks) of hexadecimal #$FF values. Working example: [Unified_32k.bin](./files/Unified_32k.bin).
 
+Components
+---------
+- 27C256 or 27C512 (DIP_28) [U1]
+- 74HCT74 (or 74LS74) (DIP_14 or SMD SO_14) [U2]
+- 74HCT00 (or 74LS00) (DIP_14 or SMD SO_14) [U3]
+- 100nF (THT or SMD_0805) x3 [C1, C2, C3]
+
+**Optional lighting eyes**
+- SMD led (SMD_0603) x2 [DE1, DE2] (UP/DOWN reverse mounted to see the light through the hole)
+- From 400 to 1K Ω (SMD_1206) [R1]
+
 **Appeareance**
 
 |||

@@ -60,3 +60,14 @@ Components
 |:---:|:---:|
 |![PCB](./files/UnifA.PNG)|![PCB](./files/UnifB.PNG)|
 
+Jumper configuration
+--------------------
+
+**JPE** and **JPG** are used to configure which mode (Ultimax or Standard) should start at start-up. They are already configured to start the Ultimax mode. If you want to reverse the order, you have to cut the pre-existing tracks in JPE and JPG.
+
+**Start with Ultimax mode (default)**
+
+| JCOMP1 | JCOMP2 |
+|:---:|:---:|
+|Short 1 and 2|Short 1 and 2|
+|![J2](./files/j2.png)|![J1](./files/j1.png)|

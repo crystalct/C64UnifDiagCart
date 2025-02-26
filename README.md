@@ -83,6 +83,14 @@ Jumper configuration
 There is the possibility of being able to select a second image (the second 16Kbyte of the BIN file to be written to the eprom) to start a different image created, for example with a different dead test or with DesTestMax. This can be done using **JPS**.
 By default, the central pin of JPS must be closed with pin 0. On position 0, the image of the first part of the total 32Kbyte eprom will be executed at start-up. At position 1, the image of the second part will be executed at start-up. Solder the middle part of JPS with the 0 if you do not want to create a cartridge with two different images.
 
+**JPT**<br>
+The eprom to be used can be either a 27C256 or a 27C512. It is necessary to solder the appropriate part.
+
+| 27C256| 27C512 |
+|:---:|:---:|
+|Short 1 and 2|Short 2 and 3|
+|![J2](./files/j1.png)|![J1](./files/j2.png)|
+
 PCB
 ---
 

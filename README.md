@@ -65,9 +65,17 @@ Jumper configuration
 
 **JPE** and **JPG** are used to configure which mode (Ultimax or Standard) should start at start-up. They are already configured to start the Ultimax mode. If you want to reverse the order, you have to cut the pre-existing tracks in JPE and JPG.
 
-**Start with Ultimax mode (default)**
+**Start with Ultimax mode (default,connection already present)**
 
-| JCOMP1 | JCOMP2 |
+| JPE | JPG |
 |:---:|:---:|
 |Short 1 and 2|Short 1 and 2|
-|![J2](./files/j2.png)|![J1](./files/j1.png)|
+|![J2](./files/j1.png)|![J1](./files/j1.png)|
+
+**Start with Stadard mode (cut and soldering)**
+
+| JPE | JPG |
+|:---:|:---:|
+|Short 2 and 3|Short 2 and 3|
+|![J2](./files/j2.png)|![J1](./files/j2.png)|
+

@@ -82,3 +82,10 @@ Jumper configuration
 **JPS**<br>
 There is the possibility of being able to select a second image (the second 16Kbyte of the BIN file to be written to the eprom) to start a different image created, for example with a different dead test or with DesTestMax. This can be done using **JPS**.
 By default, the central pin of JPS must be closed with pin 0. On position 0, the image of the first part of the total 32Kbyte eprom will be executed at start-up. At position 1, the image of the second part will be executed at start-up. Solder the middle part of JPS with the 0 if you do not want to create a cartridge with two different images.
+
+PCB
+---
+
+You can find the gerber file on [PCBWay](https://www.pcbway.com/project/shareproject/C64_Unified_Diagnostic_Cartridge_a834cce3.html) and if you want to support my work order it from them.
+
+![PCBWAY](./files/pcbway.png)

@@ -60,6 +60,7 @@ Components
 |:---:|:---:|
 |![PCB](./files/UnifA.PNG)|![PCB](./files/UnifB.PNG)|
 
+<br>
 Jumper configuration
 --------------------
 
@@ -91,6 +92,7 @@ The eprom to be used can be either a 27C256 or a 27C512. It is necessary to sold
 |Short 1 and 2|Short 2 and 3|
 |![J2](./files/j1r.png)|![J1](./files/j2r.png)|
 
+<br>
 PCB
 ---
 

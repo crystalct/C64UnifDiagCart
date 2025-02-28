@@ -6,7 +6,7 @@ From Factor of Matt [site](https://factorofmatt.com/destestmax-sl-download) down
 
 Put `bspatch.exe`, `bzip2.exe`, `rhash.exe`, `destest-max.rom` and `patch.bin` in a folder, for example `C:\tmp>` ...
 
-Check the correct version of `destest-max.rom` using `rhash.exe`: to obtain `ca6effd37cb7205544886b93fac541c8` as CRC<br>
+Check the correct version of `destest-max.rom` using `rhash.exe` to obtain `ca6effd37cb7205544886b93fac541c8` as CRC<br>
 `C:\tmp>rhash --md5 destest-max.rom`<br>
 `ca6effd37cb7205544886b93fac541c8  destest-max.rom`
 

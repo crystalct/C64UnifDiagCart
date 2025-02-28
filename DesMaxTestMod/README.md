@@ -4,3 +4,10 @@ You need `bspatch.exe` from [bsdiff-v4.3-win-x64.zip](https://github.com/reitowo
 
 From Factor of Matt [site](https://factorofmatt.com/destestmax-sl-download) download `destest-max.rom` and `patch.bin` from [here](./patch.bin). 
 
+Put `bspatch.exe`, `bzip2.exe`, `rhash.exe`, `destest-max.rom` and `patch.bin` ina a folder, for example `C:\tmp>`..
+
+Check the correct versione of `destest-max.rom` using `rhash.exe`:<br>
+`
+C:\tmp>rhash --md5 destest-max.rom
+ca6effd37cb7205544886b93fac541c8  destest-max.rom
+`

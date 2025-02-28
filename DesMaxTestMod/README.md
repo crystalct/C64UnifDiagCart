@@ -10,7 +10,7 @@ Check the correct version of `destest-max.rom` using `rhash.exe` to obtain `ca6e
 `C:\tmp>rhash --md5 destest-max.rom`<br>
 `ca6effd37cb7205544886b93fac541c8  destest-max.rom`
 
-To create the mod version, run the command:<br>
+To create the mod version run the command:<br>
 `C:\tmp>bspatch destest-max.rom destest-max-modded.bin patch.bin`
 
 `destest-max-modded.bin` is the binary file to be used as the 8Kbyte image of the Ultimax part to be written to the eprom.

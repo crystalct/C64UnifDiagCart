@@ -94,6 +94,8 @@ The eprom to be used can be either a 27C256 or a 27C512. It is necessary to sold
 |![J2](./files/j1r.png)|![J1](./files/j2r.png)|
 
 <br>
+Demonstration video
+Youtube [video](https://youtu.be/q_awDljcPjI)
 
 PCB
 ---

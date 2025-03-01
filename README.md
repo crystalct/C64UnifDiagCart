@@ -98,6 +98,7 @@ The eprom to be used can be either a 27C256 or a 27C512. It is necessary to sold
 Demonstration video
 -------------------
 Youtube [video](https://youtu.be/q_awDljcPjI)
+<br>
 
 PCB
 ---
